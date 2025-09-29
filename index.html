@@ -8,37 +8,80 @@
     <script type="module" src="./main.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="music-player">
-            <nav>
-                <div class="circle">
-                    <span>back</span>
-                </div>
-                <div class="circle">
-                    <span>bars</span>
-                </div>
-            </nav>
-
-            <div id="song-details">
-                <img src="./media/default_img.jpg" alt="" id="song-img">
-                <h1 id="title"></h1>
-                <h3 id="artist"></h3>
+    <div class="side-bar">
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <div class="user-profile">
+            <img src="" alt="">
+            <div class="user-data">
+                <span>Premium user</span>
+                <span>Hi-Fi & Master</span>
             </div>
-
-            <div class="audio">
-                <audio controls id="media" hidden>
-                    <!--<source id="audio" src="" type="audio/mpeg">-->
-                </audio>
-                <input type="range" value="0" id="progress">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Explore</a></li>
+                <li><a href="">My music</a></li>
+                <li><a href="">Playlist</a></li>
+                <li><a href="">Artists</a></li>
+                <li><a href="">Albums</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-view">
+        <nav>
+            <input type="search" name="" id="">
+            <div class="options">
+                <div class="notifications"></div>
+                <div class="config"></div>
             </div>
-
-            <div class="song-controls">
-                <span id="lastest">last</span>
-                <span id="play" class="play">play</span>
-                <span id="forward">forward</span>
-            </div>
-
+        </nav>
+        <div class="albums-container">
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
+            <div class="albums"></div>
         </div>
     </div>
+    <div class="music-player">
+        
+    </div>
+    <!--
+    <div class="music-player">
+        <nav>
+            <div class="circle">
+                <span>back</span>
+            </div>
+            <div class="circle">
+                <span>bars</span>
+            </div>
+        </nav>
+
+        <div id="song-details">
+            <img src="./media/default_img.jpg" alt="" id="song-img">
+            <h1 id="title"></h1>
+            <h3 id="artist"></h3>
+        </div>
+
+        <div class="audio">
+            <audio controls id="media" hidden>
+            </audio>
+            <input type="range" value="0" id="progress">
+        </div>
+
+        <div class="song-controls">
+            <span id="lastest">last</span>
+            <span id="play" class="play">play</span>
+            <span id="forward">forward</span>
+        </div>
+
+    </div>
+    -->
 </body>
 </html>
